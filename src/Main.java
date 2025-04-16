@@ -7,7 +7,12 @@ public class Main {
     c.model="Prius";
     c.year = 2025;
 
+
     //call method
     c.startEngine();
+    c.drive();
+    c.drive();
+    c.stop();
+    c.refuel();
     }
 }
